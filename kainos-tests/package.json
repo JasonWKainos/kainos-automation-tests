@@ -1,0 +1,23 @@
+{
+  "name": "kainos-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for Kainos website using Cucumber and Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "HEADLESS=false cucumber-js",
+    "test:playwright": "playwright test",
+    "test:report": "node cucumber-html-reporter.js"
+  },
+  "keywords": ["testing", "playwright", "automation", "cucumber", "gherkin", "bdd"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.7",
+    "cucumber-html-reporter": "^7.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

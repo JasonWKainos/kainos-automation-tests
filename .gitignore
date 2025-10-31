@@ -1,0 +1,29 @@
+# .NET / C# ignores
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+
+# Node.js / npm ignores
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Test results
+test-results/
+playwright-report/
+cucumber-report.html
+cucumber-report.json
+screenshots/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
